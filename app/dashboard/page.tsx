@@ -1,4 +1,4 @@
-import { NowPlayingCard } from '../../components/NowPlayingCard'
+import { NowPlayingCard } from '../../components/dashboard/NowPlayingCard';
 
 export default function DashboardPage() {
   return (
