@@ -1,6 +1,6 @@
-'use client'
+'use client';
 
-export function NowPlayingCard() {
+export default function NowPlayingCard() {
   return (
     <div className="border rounded-xl p-4 shadow-md bg-white dark:bg-zinc-900">
       <h2 className="text-lg font-semibold">Now Playing</h2>
@@ -8,5 +8,5 @@ export function NowPlayingCard() {
         Drake — Rich Flex
       </p>
     </div>
-  )
+  );
 }
