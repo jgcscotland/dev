@@ -1,4 +1,4 @@
-import { NowPlayingCard } from '../components/dashboard/NowPlayingCard';
+import NowPlayingCard from '../../components/dashboard/NowPlayingCard';
 
 export default function DashboardPage() {
   return (
@@ -6,5 +6,5 @@ export default function DashboardPage() {
       <h1 className="text-2xl font-bold mb-4">Spotify Rating Dashboard</h1>
       <NowPlayingCard />
     </div>
-  )
+  );
 }
